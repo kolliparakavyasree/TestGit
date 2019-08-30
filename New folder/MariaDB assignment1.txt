@@ -1,0 +1,37 @@
+Questions:
+
+1. Find the names of all customers.
+
+	select customer_name from customer;
+
+2. Find the names of all branches in the loan relation, don't display duplicates.
+
+	select distinct branch_name from loan;
+
+3. Display the entire Branch table.
+
+	select * from branch;
+
+4. Find the account number for all accounts where the balance is greater than $700.
+
+	select account_number,balance from account where balance > 700;
+
+5. Find the account number and balance for all accounts from Brighton where the balance is greater than $800.
+
+	select account_number,balance from account where branch_name="Brighton" and balance > 800;
+
+6. Display the branch name and assets from all branches in thousands of dollars and rename the assets column to 'assets in thousands'.
+
+	select branch_name, (assets/1000) as `assets in thousands` from branch;
+
+7. Find the name of all branches with assets between one and four million dollars.
+
+	select branch_name, assets from branch where assets between 1000000 and 4000000;
+
+8. Find the name, account number, and balance of all customers who have an account.
+
+	select depositor.customer_name, depositor.account_number , account.balance from depositor, account where depositor.account_number = account.account_number;
+
+9. Find the name, account number, and balance of all customers who have an account with a balance of $400 or less.
+
+	select depositor.customer_name, depositor.account_number , account.balance from depositor, account where depositor.account_number = account.account_number and account.balance <= 400;

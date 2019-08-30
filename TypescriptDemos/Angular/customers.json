@@ -1,0 +1,106 @@
+{
+  "customers": [
+    {
+      "name": "NewCustomer001",
+      "email": "newcustomer001@gmail.com",
+      "tel": "374139051385",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Customer002",
+      "email": "customer002@gmail.com",
+      "tel": "0943034430314"
+    },
+    {
+      "id": 3,
+      "name": "Customer003",
+      "email": "customer003@gmail.com",
+      "tel": "0912374090989"
+    },
+    {
+      "name": "Customer004",
+      "email": "customer004@gmail.com",
+      "tel": "003950390425",
+      "id": 4
+    },
+    {
+      "name": "Customer005",
+      "email": "customer005@gmail.com",
+      "tel": "003950390790805",
+      "id": 5
+    },
+    {
+      "name": "Customer006",
+      "email": "customer006@gmail.com",
+      "tel": "003950390790805",
+      "id": 6
+    },
+    {
+      "name": "Customer006",
+      "email": "customer006@gmail.com",
+      "tel": "003950390790805",
+      "id": 7
+    },
+    {
+      "name": "Customer006",
+      "email": "customer006@gmail.com",
+      "tel": "003950390790805",
+      "id": 8
+    },
+    {
+      "name": "Customer006",
+      "email": "customer006@gmail.com",
+      "tel": "003950390790805",
+      "id": 9
+    },
+    {
+      "name": "Customer007",
+      "email": "customer006@gmail.com",
+      "tel": "003950390790805",
+      "id": 10
+    },
+    {
+      "name": "Customer007",
+      "email": "customer006@gmail.com",
+      "tel": "003950390790805",
+      "id": 11
+    },
+    {
+      "name": "Customer008",
+      "email": "customer006@gmail.com",
+      "tel": "003950390790805",
+      "id": 12
+    },
+    {
+      "name": "Customer008",
+      "email": "customer006@gmail.com",
+      "tel": "003950390790805",
+      "id": 13
+    },
+    {
+      "name": "Customer008",
+      "email": "customer006@gmail.com",
+      "tel": "003950390790805",
+      "id": 14
+    },
+    {
+      "name": "Customer008",
+      "email": "customer006@gmail.com",
+      "tel": "003950390790805",
+      "id": 15
+    },
+    {
+      "name": "Customer008",
+      "email": "customer006@gmail.com",
+      "tel": "003950390790805",
+      "id": 16
+    },
+    {
+      "name": "Customer008",
+      "email": "customer006@gmail.com",
+      "tel": "003950390790805",
+      "id": 17
+    }
+  ]
+}

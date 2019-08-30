@@ -1,0 +1,1 @@
+Do not keep @Injectable() in component (it is allowed but bad practice).

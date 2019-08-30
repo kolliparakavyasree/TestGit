@@ -1,0 +1,140 @@
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
+
+C:\Users\Abridge Solutions\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\rootfs\home\user
+
+alchemysolutions.guindy@gmail.com
+Admin@545
+
+
+user@DESKTOP-S64F9M6:~$ ls
+user@DESKTOP-S64F9M6:~$ mkdir basics
+user@DESKTOP-S64F9M6:~$ ls
+basics
+user@DESKTOP-S64F9M6:~$ cd basics
+user@DESKTOP-S64F9M6:~/basics$ cd ..
+user@DESKTOP-S64F9M6:~$ rm basics
+rm: cannot remove 'basics': Is a directory
+user@DESKTOP-S64F9M6:~$ rmdir basics
+user@DESKTOP-S64F9M6:~$ ls
+user@DESKTOP-S64F9M6:~$ clear
+user@DESKTOP-S64F9M6:~$ pwd
+/home/user
+user@DESKTOP-S64F9M6:~$ uname
+Linux
+user@DESKTOP-S64F9M6:~$ uname -r
+4.4.0-17763-Microsoft
+user@DESKTOP-S64F9M6:~$ uname -p
+x86_64
+user@DESKTOP-S64F9M6:~$ cd /
+user@DESKTOP-S64F9M6:/$ ls
+bin  boot  dev  etc  home  init  lib  lib64  media  mnt  opt  proc  root  run  sbin  snap  srv  sys  tmp  usr  var
+user@DESKTOP-S64F9M6:/$ cd ~
+user@DESKTOP-S64F9M6:~$ ls
+user@DESKTOP-S64F9M6:~$ uptime
+ 14:43:08 up 20:21,  0 users,  load average: 0.52, 0.58, 0.59
+user@DESKTOP-S64F9M6:~$ mkdir basics
+user@DESKTOP-S64F9M6:~$ ls
+basics
+user@DESKTOP-S64F9M6:~$ mkdir -p dir1/sdir1
+user@DESKTOP-S64F9M6:~$ ls
+basics  dir1
+user@DESKTOP-S64F9M6:~$ cd dir1
+user@DESKTOP-S64F9M6:~/dir1$ ls
+sdir1
+user@DESKTOP-S64F9M6:~/dir1$ cd ..
+user@DESKTOP-S64F9M6:~$ cd -
+/home/user/dir1
+user@DESKTOP-S64F9M6:~/dir1$
+user@DESKTOP-S64F9M6:~/dir1$ cd ..
+user@DESKTOP-S64F9M6:~$ touch Nchnchmd
+user@DESKTOP-S64F9M6:~$ cat > k
+Hi this is a basic linux commands session
+user@DESKTOP-S64F9M6:~$ cat k
+Hi this is a basic linux commands session
+user@DESKTOP-S64F9M6:~$ cp k Nchnchmd
+user@DESKTOP-S64F9M6:~$ cat Nchnchmd
+Hi this is a basic linux commands session
+user@DESKTOP-S64F9M6:~$ cp k /dir1/
+cp: cannot create regular file '/dir1/': Not a directory
+user@DESKTOP-S64F9M6:~$ cp k dir1/k4
+user@DESKTOP-S64F9M6:~$ cat dir1/k4
+Hi this is a basic linux commands session
+user@DESKTOP-S64F9M6:~$ cd /home/user/
+user@DESKTOP-S64F9M6:~$ mkdir dir4
+user@DESKTOP-S64F9M6:~$ rm -r dir4
+user@DESKTOP-S64F9M6:~$ wc -l k
+0 k
+user@DESKTOP-S64F9M6:~$ wc -w k
+8 k
+user@DESKTOP-S64F9M6:~$ wc k
+ 0  8 41 k
+user@DESKTOP-S64F9M6:~$ wc k Nchnchmd
+ 0  8 41 k
+ 0  8 41 Nchnchmd
+ 0 16 82 total
+user@DESKTOP-S64F9M6:~$ less k
+user@DESKTOP-S64F9M6:~$ man man
+user@DESKTOP-S64F9M6:~$user@DESKTOP-S64F9M6:~$ ls
+user@DESKTOP-S64F9M6:~$ mkdir basics
+user@DESKTOP-S64F9M6:~$ ls
+basics
+user@DESKTOP-S64F9M6:~$ cd basics
+user@DESKTOP-S64F9M6:~/basics$ cd ..
+user@DESKTOP-S64F9M6:~$ rm basics
+rm: cannot remove 'basics': Is a directory
+user@DESKTOP-S64F9M6:~$ rmdir basics
+user@DESKTOP-S64F9M6:~$ ls
+user@DESKTOP-S64F9M6:~$ clear
+user@DESKTOP-S64F9M6:~$ pwd
+/home/user
+user@DESKTOP-S64F9M6:~$ uname
+Linux
+user@DESKTOP-S64F9M6:~$ uname -r
+4.4.0-17763-Microsoft
+user@DESKTOP-S64F9M6:~$ uname -p
+x86_64
+user@DESKTOP-S64F9M6:~$ cd /
+user@DESKTOP-S64F9M6:/$ ls
+bin  boot  dev  etc  home  init  lib  lib64  media  mnt  opt  proc  root  run  sbin  snap  srv  sys  tmp  usr  var
+user@DESKTOP-S64F9M6:/$ cd ~
+user@DESKTOP-S64F9M6:~$ ls
+user@DESKTOP-S64F9M6:~$ uptime
+ 14:43:08 up 20:21,  0 users,  load average: 0.52, 0.58, 0.59
+user@DESKTOP-S64F9M6:~$ mkdir basics
+user@DESKTOP-S64F9M6:~$ ls
+basics
+user@DESKTOP-S64F9M6:~$ mkdir -p dir1/sdir1
+user@DESKTOP-S64F9M6:~$ ls
+basics  dir1
+user@DESKTOP-S64F9M6:~$ cd dir1
+user@DESKTOP-S64F9M6:~/dir1$ ls
+sdir1
+user@DESKTOP-S64F9M6:~/dir1$ cd ..
+user@DESKTOP-S64F9M6:~$ cd -
+/home/user/dir1
+user@DESKTOP-S64F9M6:~/dir1$ cd ..
+user@DESKTOP-S64F9M6:~$ touch Nchnchmd
+user@DESKTOP-S64F9M6:~$ cat > k
+Hi this is a basic linux commands sessionuser@DESKTOP-S64F9M6:~$ cat k
+Hi this is a basic linux commands sessionuser@DESKTOP-S64F9M6:~$
+user@DESKTOP-S64F9M6:~$ cp k Nchnchmd
+user@DESKTOP-S64F9M6:~$ cat Nchnchmd
+Hi this is a basic linux commands sessionuser@DESKTOP-S64F9M6:~$ cp k /dir1/
+cp: cannot create regular file '/dir1/': Not a directory
+user@DESKTOP-S64F9M6:~$ cp k dir1/k4
+user@DESKTOP-S64F9M6:~$ cat dir1/k4
+Hi this is a basic linux commands sessionuser@DESKTOP-S64F9M6:~$ cd /home/user/
+user@DESKTOP-S64F9M6:~$ mkdir dir4
+user@DESKTOP-S64F9M6:~$ rm -r dir4
+user@DESKTOP-S64F9M6:~$ wc -l k
+0 k
+user@DESKTOP-S64F9M6:~$ wc -w k
+8 k
+user@DESKTOP-S64F9M6:~$ wc k
+ 0  8 41 k
+user@DESKTOP-S64F9M6:~$ wc k Nchnchmd
+ 0  8 41 k
+ 0  8 41 Nchnchmd
+ 0 16 82 total
+user@DESKTOP-S64F9M6:~$ less k
+user@DESKTOP-S64F9M6:~$ man man

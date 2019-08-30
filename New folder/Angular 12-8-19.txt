@@ -1,0 +1,7 @@
+1. typecasting Vs type assertions 
+
+2.Understand ES(Ecma Script)
+
+3.Undertsand the similarities between Ecma Script and typescript
+
+4. HTML new elements
